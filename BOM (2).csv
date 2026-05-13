@@ -1,0 +1,22 @@
+Reference,Qty,Component,Value/Part,Footprint,Source,Link,Notes
+U1,1,MCU Module,ESP32-S3-WROOM-1-N8R8,ESP32-S3-WROOM-1,Espressif / Robu,https://www.espressif.com/en/module/esp32-s3-wroom-1-en,Main ESP32-S3 module with native USB HID capability for macropad output
+Q1,1,NPN Transistor,2N3904,TO-92_Inline,LCSC,https://www.lcsc.com/product-detail/C118538.html,Buzzer driver transistor
+D1,1,LED,SFH4546 5mm IR LED,LED_D5.0mm,DigiKey / ams OSRAM,https://www.digikey.in/en/products/detail/ams-osram-usa-inc/SFH-4546/2205956,Indicator/LED footprint from PCB export; verify this is the intended LED before ordering
+"R6,R5",2,Resistor,10k? 0603,R_0603_1608Metric,LCSC,https://www.lcsc.com/product-detail/C269701.html,EN/BOOT pull-up resistors
+"R8,R7",2,Resistor,1k? 0603,R_0603_1608Metric,LCSC,https://www.lcsc.com/product-detail/C22548.html,Buzzer transistor base resistor and power LED/current-limit resistor
+"SW2,SW1",2,Push Button,6x6mm tactile push button,SW_PUSH_6mm,LCSC,https://www.lcsc.com/product-detail/C393938.html,BOOT and RESET buttons
+U3,1,Voltage Regulator,AP2112K-3.3,SOT-23-5,LCSC,https://www.lcsc.com/product-detail/C23380830.html,3.3V LDO regulator from USB 5V
+R9,1,Resistor,330 0603,R_0603_1608Metric,LCSC,https://www.lcsc.com/product-detail/C23138.html,Series resistor for WS2812B data line
+BZ1,1,Buzzer,12mm through-hole active buzzer,Buzzer_12x9.5RM7.6,LCSC,https://www.lcsc.com/product-detail/C360615.html,Touch feedback buzzer; footprint Buzzer_12x9.5RM7.6
+"C1,C2",2,Capacitor,10µF 0805 ceramic capacitor,C_0805_2012Metric,LCSC,https://www.lcsc.com/product-detail/C89827.html,AP2112K regulator input/output capacitors
+"R1,R2",2,Resistor,5.1k?,R_0603_1608Metric,LCSC,https://www.lcsc.com/product-detail/C105580.html,USB-C CC1/CC2 pull-down resistors
+U4,1,USB ESD Protection,USBLC6-2SC6,SOT-23-6,LCSC / STMicroelectronics,https://www.lcsc.com/product-detail/C2827654.html,ESD protection for USB D+ and D- lines
+D2,1,Addressable RGB LED,WS2812B-B/W SMD5050-4P,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,LCSC,https://www.lcsc.com/product-detail/C114586.html,Mode/status RGB LED
+J2,1,Display Connector,1x14 2.54mm vertical header,PinHeader_1x14_P2.54mm_Vertical,KiCad standard footprint / generic electronics supplier,https://www.lcsc.com/category/568.html,Connector footprint for external 3.5 inch SPI TFT touch display module
+J1,1,USB-C Receptacle,HCTL HC-TYPE-C-16P-01A,USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A,LCSC / JLCPCB,https://www.lcsc.com/product-detail/C2894897.html,USB-C power/programming/HID connection
+C7,1,Capacitor,1µF 0805 ceramic capacitor,C_0805_2012Metric,LCSC,https://www.lcsc.com/product-detail/C91186.html,EN/reset stability capacitor
+PCB1,1,Custom PCB,TouchDeck / ScribbleDeck PCB,Gerber-manufactured PCB,JLCPCB / PCBWay,https://github.com/andaniayan-jpg/TouchDeck/blob/ea78aa653e28143bab8d7112f781ad645142ba18/pcb_source_files/TOUCHdeck%20GERBERS.zip,Main printed circuit board manufactured from Gerber files; PCB itself is included as a BOM item
+DISP1,1,Touch Display Module,3.5 inch SPI TFT LCD ILI9488 + XPT2046 touch module,External module connected through J2 1x14 header,Robokits / electronics supplier,https://robokits.co.in/displays/lcd-display/spi-tft-3.5-lcd-touch-module-ili9488-driver-480x320,Main touchscreen used for macro buttons and temporary scribble pad
+CASE1,1,Enclosure,Custom 3D printed TouchDeck enclosure,3D printed part,Self-printed / 3D printing service,CAD/TouchDeck_enclosure.step,Outer case for touchscreen device
+CABLE1,1,USB-C Cable,USB-C data/power cable,External cable,Amazon / electronics supplier,https://www.amazon.in/Type-C-Data-Cable/s?k=Type-C+Data+Cable,"Used for power, programming, and USB HID connection to laptop"
+MECH1,1,Mounting Hardware,M2.5 hex screws,Mechanical hardware,Amazon / hardware supplier,https://www.amazon.in/binifiMux-190pcs-Socket-Assortment-Stainless/dp/B07PS8V4V3,Used to fasten the PCB/enclosure parts
