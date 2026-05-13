@@ -2,6 +2,9 @@
 
 A custom ESP32-S3 powered touchscreen macropad and temporary scribble pad for creators, students, and developers.
 
+
+
+
 TouchDeck replaces physical macro keys with a touchscreen interface. It lets users trigger laptop shortcuts through on-screen buttons and also includes a quick doodle/scribble mode where users can write or sketch temporary ideas and clear them instantly.
 
 ---
@@ -73,6 +76,9 @@ It feels like a mini control tablet for creators and students.
 - WS2812B RGB status LED
 - Buzzer feedback
 - Custom enclosure support
+
+  <img width="807" height="637" alt="image" src="https://github.com/user-attachments/assets/af7c6ff3-79cf-40f5-9270-ce6b370cb6bb" />
+  <img width="580" height="592" alt="image" src="https://github.com/user-attachments/assets/c1d59b20-0be1-4b21-8239-1a179d2a4b46" />
 
 ---
 
@@ -151,6 +157,9 @@ Pressing **Clear** removes the drawing from the screen.
 Pressing **Back** returns to the home screen and clears the temporary canvas.
 
 ---
+
+<img width="1093" height="710" alt="Screenshot 2026-05-12 185242" src="https://github.com/user-attachments/assets/39bed192-fa30-4eb7-ba5f-bf6ecf6554f1" />
+
 
 ## Hardware Used
 
