@@ -2,6 +2,9 @@
 
 A custom ESP32-S3 powered touchscreen macropad and temporary scribble pad for creators, students, and developers.
 
+<img width="1748" height="2480" alt="imresizer-oduct" src="https://github.com/user-attachments/assets/716087a9-ae82-4db0-bb94-4712fb55cfb9" />
+
+
 
 
 
